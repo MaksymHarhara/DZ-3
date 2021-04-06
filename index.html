@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="css/noto-sans-jp.css" rel="stylesheet">
+
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+
+    <title>Big recipe book</title>
+</head>
+<body>
+<div class="carousel">
+
+    <span id="s1"></span>
+    <input type="radio" id="img1" class="hidden" name="images">
+    <input type="radio" id="img2" class="hidden" name="images">
+    <input type="radio" id="img3" class="hidden" name="images">
+    <input type="radio" id="img4" class="hidden" name="images">
+
+    <input type="radio" id="close1" name="images">
+    <input type="radio" id="close2" name="images">
+    <input type="radio" id="close3" name="images">
+    <input type="radio" id="close4" name="images">
+
+    <div class="carousel-item item--1">
+        <div class="carousel-pic">
+            <label for="img1" class="img1 dropdown"></label>
+            <div class="dropdown-content">
+                <h1>Ingredients</h1>
+                <p>1 буряк</p>
+                <p>4 склянки води</p>
+                <p>2 склянки борошна</p>
+                <p>3 кусочки броколі</p>
+                <p>400 грамів курки</p>
+                <p>2 пучки молодої цибулі</p>
+            </div>
+            <div class="img--1 modal">
+                <label for="close1" class="close">&times;</label>
+                <div class="img1 modal-content"></div>
+            </div>
+        </div>
+        <div class="carousel-pic">
+            <label for="img2" class="img2 dropdown"></label>
+            <div class="dropdown-content">
+                <h1>Ingredients</h1>
+                <p>2 моркви</p>
+                <p>1 паелья</p>
+                <p>100 грамів фасолі</p>
+                <p>10 в'ялених помідор</p>
+            </div>
+            <div class="img--2 modal">
+                <label for="close2" class="close">&times;</label>
+                <div class="img2 modal-content"></div>
+            </div>
+        </div>
+        <div class="carousel-pic">
+            <label for="img3" class="img3 dropdown"></label>
+            <div class="dropdown-content">
+                <h1>Ingredients</h1>
+                <p>1/4 авокадо</p>
+                <p>100 грамів брюсельської капусти</p>
+                <p>100 грамів помідор чері</p>
+                <p>2 яйця</a></p>
+            </div>
+            <div class="img--3 modal">
+                <label for="close3" class="close">&times;</label>
+                <div class="img3 modal-content"></div>
+            </div>
+        </div>
+        <div class="carousel-pic">
+            <label for="img4" class="img4 dropdown"></label>
+            <div class="dropdown-content">
+                <h1>Ingredients</h1>
+                <p>1 куряче філе</p>
+                <p>пачка хумусу</p>
+                <p>1/2 болгарського перцю</p>
+                <p>зелень за смаком</p>
+            </div>
+            <div class="img--4 modal">
+                <label for="close4" class="close">&times;</label>
+                <div class="img4 modal-content"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="prev-next">
+        <div><a href="#s3"></a><a href="#s2"></a></div>
+        <div><a href="#s1"></a><a href="#s3"></a></div>
+        <div><a href="#s2"></a><a href="#s1"></a></div>
+    </div>
+
+    <div class="bullets">
+        <a href="#s1">1</a>
+        <a href="#s2">2</a>
+        <a href="#s3">3</a>
+    </div>
+</div>
+
+</body>
+</html>
